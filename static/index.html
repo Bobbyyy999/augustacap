@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Augusta Terminal</title>
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div id="shell">
+  <header>
+    <span class="brand">AUGUSTA<small>TERMINAL</small></span>
+    <div id="cmdwrap">
+      <input id="cmd" type="text" spellcheck="false" autocomplete="off"
+             placeholder="Ticker or function, then Enter   e.g.  AAPL · NVDA OPT · WEI · FRED DGS10 · HELP">
+      <div id="suggest" hidden></div>
+    </div>
+    <span class="spacer"></span>
+    <span class="clock" id="clock"></span>
+    <span class="badge" id="mode"></span>
+    <button class="iconbtn" id="bell" title="Alarms">ALARMS<span class="count" id="bellcount" hidden></span></button>
+    <button class="iconbtn" id="userbtn" title="Account"></button>
+    <button class="iconbtn" id="logout" title="Sign out">EXIT</button>
+  </header>
+  <div id="strip"></div>
+  <div id="body">
+    <nav id="nav"></nav>
+    <main id="main"></main>
+  </div>
+  <footer id="foot"></footer>
+</div>
+<div id="modal"></div>
+<div id="toasts"></div>
+<script src="/static/chart.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

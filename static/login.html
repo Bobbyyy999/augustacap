@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Augusta Terminal — Sign in</title>
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="login">
+<form class="loginbox" id="form" autocomplete="on">
+  <span class="brand">AUGUSTA</span>
+  <div class="tag2">Capital Management · Terminal</div>
+  <label class="f"><span>Username</span><input type="text" id="u" autocomplete="username" autofocus required></label>
+  <label class="f"><span>Password</span><input type="password" id="p" autocomplete="current-password" required></label>
+  <button class="btn pri" type="submit" id="go">Sign in</button>
+  <div class="msg" id="msg" role="alert"></div>
+  <div class="fine">Internal use only. Accounts are issued by the fund's admin.</div>
+</form>
+<script src="/static/login.js"></script>
+</body>
+</html>

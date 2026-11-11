@@ -1,0 +1,20 @@
+{
+  "_note": "Policy decision days (the day the rate decision is announced). Edit this file to add banks or years, then restart. Sources: federalreserve.gov, ecb.europa.eu, bankofengland.co.uk, boj.or.jp, bankofcanada.ca. Dates collected 10 Nov 2026; central banks label future dates tentative.",
+  "banks": [
+    {"bank": "Federal Reserve (FOMC)", "code": "FED", "time": "14:00 ET",
+     "dates": ["2026-12-09", "2027-01-27", "2027-03-17", "2027-04-28", "2027-06-09", "2027-07-28", "2027-09-15", "2027-10-27", "2027-12-08"],
+     "projections": ["2026-12-09", "2027-03-17", "2027-06-09", "2027-09-15", "2027-12-08"]},
+    {"bank": "European Central Bank", "code": "ECB", "time": "14:15 CET",
+     "dates": ["2026-12-17", "2027-02-04", "2027-03-18", "2027-04-29", "2027-06-10", "2027-07-22", "2027-09-09", "2027-10-28", "2027-12-16"],
+     "projections": []},
+    {"bank": "Bank of England (MPC)", "code": "BOE", "time": "12:00 UK",
+     "dates": ["2026-12-17", "2027-02-04", "2027-03-18", "2027-04-29", "2027-06-17", "2027-07-29", "2027-09-16", "2027-11-04", "2027-12-16"],
+     "projections": ["2027-02-04", "2027-04-29", "2027-07-29", "2027-11-04"]},
+    {"bank": "Bank of Japan", "code": "BOJ", "time": "around midday JST",
+     "dates": ["2026-12-18", "2027-01-22", "2027-03-18", "2027-04-28", "2027-06-11", "2027-07-22", "2027-09-22", "2027-10-29", "2027-12-17"],
+     "projections": ["2027-01-22", "2027-04-28", "2027-07-22", "2027-10-29"]},
+    {"bank": "Bank of Canada", "code": "BOC", "time": "09:45 ET",
+     "dates": ["2026-12-09", "2027-01-27", "2027-03-03", "2027-04-28", "2027-06-02", "2027-07-21", "2027-09-08", "2027-10-27", "2027-12-08"],
+     "projections": ["2027-01-27", "2027-04-28", "2027-07-21", "2027-10-27"]}
+  ]
+}

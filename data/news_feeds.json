@@ -1,0 +1,8 @@
+[
+  {"name": "Federal Reserve", "url": "https://www.federalreserve.gov/feeds/press_all.xml"},
+  {"name": "ECB", "url": "https://www.ecb.europa.eu/rss/press.html"},
+  {"name": "Bank of England", "url": "https://www.bankofengland.co.uk/rss/news"},
+  {"name": "SEC", "url": "https://www.sec.gov/news/pressreleases.rss"},
+  {"name": "CNBC", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"},
+  {"name": "MarketWatch", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"}
+]
